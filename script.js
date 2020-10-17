@@ -19,6 +19,7 @@ function generatePassword() {
   var passLength = getPasswordLength();
   var passRuleCheck = false;
  do {
+    passwordStr="";
     for(i=0; i<passLength; i++)
         {
           var rand0to1 = Math.random();
