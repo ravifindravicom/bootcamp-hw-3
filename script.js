@@ -99,7 +99,3 @@ return(passwordLength);
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword());
-
