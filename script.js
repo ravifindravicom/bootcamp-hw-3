@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(event) { 
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -101,3 +103,5 @@ generateBtn.addEventListener("click", writePassword);
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword());
+
+});
