@@ -67,7 +67,7 @@ function pallete(passwordChoices,charArray){
   do {
   /* Note using confirm and alert should preferably be replaced by jQuery form with radio buttons */
     
-      passwordChoices[0] = setTimeout(function() {confirm("Do you want lowercase characters?")},5000);
+      passwordChoices[0] = confirm("Do you want lowercase characters?");
       passwordChoices[1] = confirm("Do you want uppercase characters?");
       passwordChoices[2] = confirm("Do you want special characters?");
       atLeastOneChar = passwordChoices[0] || passwordChoices[1] || passwordChoices[2];
